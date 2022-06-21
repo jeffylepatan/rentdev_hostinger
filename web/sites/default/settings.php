@@ -776,9 +776,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'u644727528_eqnY6',
-  'username' => 'u644727528_RHwVT',
-  'password' => 'nWHmUMpB7p',
+  'database' => 'u644727528_rentahanan',
+  'username' => 'u644727528_admin_jeffy	',
+  'password' => '4ulitJoan',
   'prefix' => 'qnlf_',
   'host' => '127.0.0.1',
   'port' => '3306',
