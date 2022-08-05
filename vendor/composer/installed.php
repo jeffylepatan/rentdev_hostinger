@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '9.4.0',
-        'version' => '9.4.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '7203c613a5df26a27534143d9fd8e812d4eea100',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -69,6 +69,15 @@
             'replaced' => array(
                 0 => '9.4.0',
             ),
+        ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.1.0',
+            'version' => '3.1.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'reference' => '3.1.0',
+            'dev_requirement' => false,
         ),
         'drupal/aggregator' => array(
             'dev_requirement' => false,
@@ -634,6 +643,15 @@
                 0 => '9.4.0',
             ),
         ),
+        'drupal/phpmailer_smtp' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/phpmailer_smtp',
+            'aliases' => array(),
+            'reference' => '2.0.0',
+            'dev_requirement' => false,
+        ),
         'drupal/quickedit' => array(
             'dev_requirement' => false,
             'replaced' => array(
@@ -647,12 +665,12 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '9.4.0',
-            'version' => '9.4.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '7203c613a5df26a27534143d9fd8e812d4eea100',
             'dev_requirement' => false,
         ),
         'drupal/responsive_image' => array(
@@ -920,6 +938,15 @@
             'install_path' => __DIR__ . '/../pear/pear_exception',
             'aliases' => array(),
             'reference' => 'b14fbe2ddb0b9f94f5b24cf08783d599f776fff0',
+            'dev_requirement' => false,
+        ),
+        'phpmailer/phpmailer' => array(
+            'pretty_version' => 'v6.6.3',
+            'version' => '6.6.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpmailer/phpmailer',
+            'aliases' => array(),
+            'reference' => '9400f305a898f194caff5521f64e5dfa926626f3',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(
